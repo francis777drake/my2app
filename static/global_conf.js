@@ -1,23 +1,23 @@
 const GlobalConfigs = {
   pageTitle: "Azino777 mobile games",
-  navigationType: ProjectConsts.allNavigationTypes.listMenu,  //can be hamburger, singlePage, listMenu
+  navigationType: ProjectConsts.allNavigationTypes.singlePage,  //can be hamburger, singlePage, listMenu
   useIFramesEverywhere: false,
-  homeSitePageUrl: "http://www.boomerangtv.ru/",
+  homeSitePageUrl: "http://bananagame.top/",
   menuItems: [
-    //{icon: 'home', text: 'Главная', url:"http://www.boomerangtv.ru/"},
+    //{icon: 'home', text: 'Главная', url:"http://bananagame.top/"},
     {
       icon: 'list', text: 'Видео',
-      url: "http://www.boomerangtv.ru/videos", notLoadToIFrame: true
+      url: "http://bananagame.top/", notLoadToIFrame: true
     },
     //{icon: 'photo', text: 'Игры',
-    // url:"http://www.boomerangtv.ru/games"},
+    // url:"http://bananagame.top/"},
     {
       icon: 'info', text: 'О нас',
-      url: "http://www.boomerangtv.ru/"
+      url: "http://bananagame.top/"
     },
     {
       icon: 'mail', text: 'Контакты',
-      url: "http://www.boomerangtv.ru/"
+      url: "http://bananagame.top/"
     },
     {
       icon: 'group', text: 'О разработчике', url: "",
